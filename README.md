@@ -6,6 +6,12 @@ See [Deployment notes for installation](https://github.com/matteoferla/MichelaNG
 
 Note that the [protein parsing module](https://github.com/matteoferla/MichelaNGLo-protein-module) is dependent on only the transpiler module, which is required for the structural analysis of a variant only &mdash;if unneeded alter `analyse/__init__.py` to not use `PyMOL_structure_analyser.py`.
 
+
+## Dictionaries
+
+In this repo are some JSON files intended for the `dictionary` subfolder of the protein-data folder and a tsv for the `reference` subfolder. The rest are for decompression into the `pickle/taxid9606` subfolder 
+–taxon id 9606 is human.
+
 ## Usage
 
 The files are gip compressed pickle files labelled by Uniprot accession.
